@@ -34,7 +34,7 @@ function filterData() {
 
 var button = d3.select("#filter-btn");
 
-var form = d3.select("#form");
+var form = d3.select("#dateSelect");
 
 button.on("click", filterData);
 form.on("submit", filterData);
